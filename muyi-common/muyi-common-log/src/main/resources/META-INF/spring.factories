@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.muyi.common.log.service.AsyncLogService,\
+  com.muyi.common.log.aspect.LogAspect
