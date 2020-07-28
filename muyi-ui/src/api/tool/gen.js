@@ -8,7 +8,6 @@ export function listTable(query) {
     params: query
   })
 }
-
 // 查询db数据库列表
 export function listDbTable(query) {
   return request({
@@ -43,7 +42,6 @@ export function importTable(data) {
     params: data
   })
 }
-
 // 预览生成代码
 export function previewTable(tableId) {
   return request({
@@ -51,7 +49,6 @@ export function previewTable(tableId) {
     method: 'get'
   })
 }
-
 // 删除表数据
 export function delTable(tableId) {
   return request({

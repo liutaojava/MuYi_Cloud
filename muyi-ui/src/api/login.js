@@ -10,7 +10,7 @@ export function login(username, password, code, uuid) {
   return request({
     url: '/auth/oauth/token',
     method: 'post',
-    params: {username, password, code, uuid, client_id, client_secret, grant_type, scope}
+    params: { username, password, code, uuid, client_id, client_secret, grant_type, scope }
   })
 }
 

@@ -1,8 +1,8 @@
 {
   "name": "ruoyi",
   "version": "2.3.0",
-  "description": "沐依管理系统",
-  "author": "沐依",
+  "description": "若依管理系统",
+  "author": "若依",
   "license": "MIT",
   "scripts": {
     "dev": "vue-cli-service serve --open",
