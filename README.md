@@ -66,6 +66,13 @@ com.muyi
 演示地址：http://muyi.vip  
 文档地址：http://doc.muyi.vip
 
+## sentinel启动控制台
+- java -Dserver.port=8718 -Dcsp.sentinel.dashboard.server=localhost:8718 -jar sentinel-dashboard.jar
+- nohup java -Dserver.port=8718 -Dproject.name=sentinel-dashboard -jar sentinel-dashboard-1.7.2.jar > log.file 2>&1 &
+本地访问sentinel控制台
+http://localhost:8718  sentinel/sentinel
+
+
 ## 演示图
 
 <table>
@@ -107,7 +114,3 @@ com.muyi
     </tr>
 </table>
 
-
-## 沐依微服务交流群
-
-QQ群： [![加入QQ群](https://img.shields.io/badge/已满-42799195-blue.svg)](https://jq.qq.com/?_wv=1027&k=yqInfq0S) [![加入QQ群](https://img.shields.io/badge/170157040-blue.svg)](https://jq.qq.com/?_wv=1027&k=Oy1mb3p8) 点击按钮入群。
